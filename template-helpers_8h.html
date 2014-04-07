@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.4"/>
-<title>balde: Data Fields - Variables</title>
+<title>balde: include/balde/template-helpers.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -49,8 +49,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,15 +71,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
-      <li class="current"><a href="functions.html"><span>Data&#160;Fields</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow3" class="tabs2">
-    <ul class="tablist">
-      <li><a href="functions.html"><span>All</span></a></li>
-      <li class="current"><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -94,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('functions_vars.html','');});
+$(document).ready(function(){initNavTree('template-helpers_8h.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -111,63 +104,86 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </iframe>
 </div>
 
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle">
+<div class="title">template-helpers.h File Reference</div>  </div>
+</div><!--header-->
 <div class="contents">
-&#160;<ul>
-<li>args
-: <a class="el" href="structbalde__request__t.html#aacaaf813f34c9012b5136a3f54904f1f">balde_request_t</a>
-</li>
-<li>body
-: <a class="el" href="structbalde__response__t.html#ad8e033d0a5fbdfa56ab1d8679b645e15">balde_response_t</a>
-</li>
-<li>config
-: <a class="el" href="structbalde__app__t.html#ab508e09b6ef625a91048f41cedebf55d">balde_app_t</a>
-</li>
-<li>cookies
-: <a class="el" href="structbalde__request__t.html#af65a581028a371d08abc8f6f737f14ca">balde_request_t</a>
-</li>
-<li>error
-: <a class="el" href="structbalde__app__t.html#abc39a4bba3587c275762137dee2c3fc1">balde_app_t</a>
-</li>
-<li>form
-: <a class="el" href="structbalde__request__t.html#a857b634df79fbc722a18155176dfc6f0">balde_request_t</a>
-</li>
-<li>headers
-: <a class="el" href="structbalde__request__t.html#ad280d7902c00b5e72399e0fb4d303fb4">balde_request_t</a>
-, <a class="el" href="structbalde__response__t.html#ad280d7902c00b5e72399e0fb4d303fb4">balde_response_t</a>
-</li>
-<li>method
-: <a class="el" href="structbalde__request__t.html#ac7bb14390fdb66a3d15f74d462692eeb">balde_request_t</a>
-</li>
-<li>path
-: <a class="el" href="structbalde__request__t.html#a5f54a0399f6879bc474ede50ba69f7e8">balde_request_t</a>
-</li>
-<li>static_resources
-: <a class="el" href="structbalde__app__t.html#a64b6239a497d4cff9b205a4845633183">balde_app_t</a>
-</li>
-<li>status_code
-: <a class="el" href="structbalde__response__t.html#af1c6e8a76122ae7ac42bc4d6cd686fe9">balde_response_t</a>
-</li>
-<li>stream
-: <a class="el" href="structbalde__request__t.html#a378ea2e0f96980ae7c716e9c2aab3b23">balde_request_t</a>
-</li>
-<li>template_ctx
-: <a class="el" href="structbalde__response__t.html#a70cd86c84a04b201e983f7b0299f8542">balde_response_t</a>
-</li>
-<li>user_data
-: <a class="el" href="structbalde__app__t.html#ab750a43562d5a4d847a667c3d741ce5d">balde_app_t</a>
-</li>
-<li>view_args
-: <a class="el" href="structbalde__request__t.html#a0dd4b0ba9d2bcf82db9786201c25f067">balde_request_t</a>
-</li>
-<li>views
-: <a class="el" href="structbalde__app__t.html#a36466e0c00491e0a3ac1a0d545fd2b62">balde_app_t</a>
-</li>
-</ul>
+
+<p>Template helper functions.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;glib.h&gt;</code><br/>
+<code>#include &lt;<a class="el" href="app_8h_source.html">balde/app.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="wrappers_8h_source.html">balde/wrappers.h</a>&gt;</code><br/>
+</div>
+<p><a href="template-helpers_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae81deb35e0563831d9502cbea97185bd"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="template-helpers_8h.html#ae81deb35e0563831d9502cbea97185bd">balde_tmpl_url_for</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, <a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, const gchar *endpoint, gboolean external,...)</td></tr>
+<tr class="memdesc:ae81deb35e0563831d9502cbea97185bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template helper to get the URL for a given endpoint.  <a href="#ae81deb35e0563831d9502cbea97185bd">More...</a><br/></td></tr>
+<tr class="separator:ae81deb35e0563831d9502cbea97185bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Template helper functions. </p>
+<p>These functions are designed to be called from the templates. When calling them from a template, the user should omit the 'balde_tmpl_' prefix and the two first arguments: application context and request context, that are filled automatically by balde. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ae81deb35e0563831d9502cbea97185bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* balde_tmpl_url_for </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__app__t.html">balde_app_t</a> *&#160;</td>
+          <td class="paramname"><em>app</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structbalde__request__t.html">balde_request_t</a> *&#160;</td>
+          <td class="paramname"><em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>endpoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gboolean&#160;</td>
+          <td class="paramname"><em>external</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Template helper to get the URL for a given endpoint. </p>
+<p>You should pass the exact number of parameters expected by the view's URL rule.</p>
+<p>The 'external' parameter isn't implemented yet, but is planned on the API. If set to TRUE, the function will return an absolute URL. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_03e0dcb93cfbac0a1b958cd83e5ca3c6.html">balde</a></li><li class="navelem"><a class="el" href="template-helpers_8h.html">template-helpers.h</a></li>
     <li class="footer">Generated on Sun Apr 6 2014 22:32:57 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
