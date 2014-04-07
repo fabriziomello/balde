@@ -10,6 +10,7 @@ var searchData=
   ['balde_5fapp_5finit',['balde_app_init',['../app_8h.html#ad9173f43f1febcb85b67b9ffc03b9e78',1,'app.c']]],
   ['balde_5fapp_5frun',['balde_app_run',['../app_8h.html#a7ee7602303231372ce0a033c652e34dc',1,'app.c']]],
   ['balde_5fapp_5fset_5fconfig',['balde_app_set_config',['../app_8h.html#a4bc9c22b61e61d5b8b416c092133e2e4',1,'app.c']]],
+  ['balde_5fapp_5furl_5ffor',['balde_app_url_for',['../app_8h.html#a46c2ba4aec8d6af65262d6dca9e00d45',1,'app.c']]],
   ['balde_5fmake_5fresponse',['balde_make_response',['../wrappers_8h.html#a80d4ebc56221c247c04b20cba5229afe',1,'wrappers.c']]],
   ['balde_5fmake_5fresponse_5flen',['balde_make_response_len',['../wrappers_8h.html#a0407bff6f8e42abe48a32c590ef20203',1,'wrappers.c']]],
   ['balde_5frequest_5fget_5farg',['balde_request_get_arg',['../wrappers_8h.html#a1e964c6c06a3500ba283310f6b26c6c6',1,'wrappers.c']]],

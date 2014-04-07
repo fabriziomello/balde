@@ -150,6 +150,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a859614273e71fe0e1b24926b4818f7aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="app_8h.html#a859614273e71fe0e1b24926b4818f7aa">balde_app_add_url_rule</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, const gchar *endpoint, const gchar *rule, const <a class="el" href="routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245">balde_http_method_t</a> method, <a class="el" href="app_8h.html#aa84a1f05581a47984022541b0f11c647">balde_view_func_t</a> view_func)</td></tr>
 <tr class="memdesc:a859614273e71fe0e1b24926b4818f7aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a view to the balde application.  <a href="#a859614273e71fe0e1b24926b4818f7aa">More...</a><br/></td></tr>
 <tr class="separator:a859614273e71fe0e1b24926b4818f7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c2ba4aec8d6af65262d6dca9e00d45"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="app_8h.html#a46c2ba4aec8d6af65262d6dca9e00d45">balde_app_url_for</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, const gchar *endpoint, gboolean external,...)</td></tr>
+<tr class="memdesc:a46c2ba4aec8d6af65262d6dca9e00d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to get the URL for a given endpoint.  <a href="#a46c2ba4aec8d6af65262d6dca9e00d45">More...</a><br/></td></tr>
+<tr class="separator:a46c2ba4aec8d6af65262d6dca9e00d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ee7602303231372ce0a033c652e34dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="app_8h.html#a7ee7602303231372ce0a033c652e34dc">balde_app_run</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app)</td></tr>
 <tr class="memdesc:a7ee7602303231372ce0a033c652e34dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Application main loop.  <a href="#a7ee7602303231372ce0a033c652e34dc">More...</a><br/></td></tr>
 <tr class="separator:a7ee7602303231372ce0a033c652e34dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -341,13 +344,55 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a46c2ba4aec8d6af65262d6dca9e00d45"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* balde_app_url_for </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__app__t.html">balde_app_t</a> *&#160;</td>
+          <td class="paramname"><em>app</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>endpoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gboolean&#160;</td>
+          <td class="paramname"><em>external</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper function to get the URL for a given endpoint. </p>
+<p>You should pass the exact number of parameters expected by the view's URL rule.</p>
+<p>The 'external' parameter isn't implemented yet, but is planned on the API. If set to TRUE, the function will return an absolute URL. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_03e0dcb93cfbac0a1b958cd83e5ca3c6.html">balde</a></li><li class="navelem"><a class="el" href="app_8h.html">app.h</a></li>
-    <li class="footer">Generated on Sat Apr 5 2014 21:16:48 for balde by
+    <li class="footer">Generated on Sun Apr 6 2014 22:27:09 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

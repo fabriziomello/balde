@@ -7,5 +7,6 @@ var app_8h =
     [ "balde_app_get_config", "app_8h.html#afef8ce40ff03ab6d49f2be5113fd6107", null ],
     [ "balde_app_init", "app_8h.html#ad9173f43f1febcb85b67b9ffc03b9e78", null ],
     [ "balde_app_run", "app_8h.html#a7ee7602303231372ce0a033c652e34dc", null ],
-    [ "balde_app_set_config", "app_8h.html#a4bc9c22b61e61d5b8b416c092133e2e4", null ]
+    [ "balde_app_set_config", "app_8h.html#a4bc9c22b61e61d5b8b416c092133e2e4", null ],
+    [ "balde_app_url_for", "app_8h.html#a46c2ba4aec8d6af65262d6dca9e00d45", null ]
 ];

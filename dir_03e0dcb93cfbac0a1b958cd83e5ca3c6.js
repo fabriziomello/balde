@@ -4,5 +4,6 @@ var dir_03e0dcb93cfbac0a1b958cd83e5ca3c6 =
     [ "exceptions.h", "exceptions_8h.html", "exceptions_8h" ],
     [ "resources.h", "resources_8h.html", "resources_8h" ],
     [ "routing.h", "routing_8h.html", "routing_8h" ],
+    [ "template-helpers.h", "template-helpers_8h_source.html", null ],
     [ "wrappers.h", "wrappers_8h.html", "wrappers_8h" ]
 ];

@@ -11,6 +11,7 @@ var searchData=
   ['balde_5fapp_5frun',['balde_app_run',['../app_8h.html#a7ee7602303231372ce0a033c652e34dc',1,'app.c']]],
   ['balde_5fapp_5fset_5fconfig',['balde_app_set_config',['../app_8h.html#a4bc9c22b61e61d5b8b416c092133e2e4',1,'app.c']]],
   ['balde_5fapp_5ft',['balde_app_t',['../structbalde__app__t.html',1,'']]],
+  ['balde_5fapp_5furl_5ffor',['balde_app_url_for',['../app_8h.html#a46c2ba4aec8d6af65262d6dca9e00d45',1,'app.c']]],
   ['balde_5fhttp_5fexception_5fcode_5ft',['balde_http_exception_code_t',['../exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844',1,'exceptions.h']]],
   ['balde_5fhttp_5fmethod_5ft',['balde_http_method_t',['../routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245',1,'routing.h']]],
   ['balde_5fmake_5fresponse',['balde_make_response',['../wrappers_8h.html#a80d4ebc56221c247c04b20cba5229afe',1,'wrappers.c']]],

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.4"/>
-<title>balde: include/balde/resources.h File Reference</title>
+<title>balde: include/balde/template-helpers.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('resources_8h.html','');});
+$(document).ready(function(){initNavTree('template-helpers_8h_source.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,65 +105,35 @@ $(document).ready(function(){initNavTree('resources_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">resources.h File Reference</div>  </div>
+<div class="title">template-helpers.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Static resources related definitions.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;glib.h&gt;</code><br/>
-<code>#include &lt;gio/gio.h&gt;</code><br/>
-<code>#include &lt;<a class="el" href="app_8h_source.html">balde/app.h</a>&gt;</code><br/>
-</div>
-<p><a href="resources_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a89374eba0f8e2566969e538dc23b023c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="resources_8h.html#a89374eba0f8e2566969e538dc23b023c">balde_resources_load</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, GResource *resources)</td></tr>
-<tr class="memdesc:a89374eba0f8e2566969e538dc23b023c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load static resources.  <a href="#a89374eba0f8e2566969e538dc23b023c">More...</a><br/></td></tr>
-<tr class="separator:a89374eba0f8e2566969e538dc23b023c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Static resources related definitions. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a89374eba0f8e2566969e538dc23b023c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void balde_resources_load </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structbalde__app__t.html">balde_app_t</a> *&#160;</td>
-          <td class="paramname"><em>app</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GResource *&#160;</td>
-          <td class="paramname"><em>resources</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Load static resources. </p>
-<p>This function loads all the resources found in a GResource object into the application context. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * balde: A microframework for C based on GLib and bad intentions.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright (C) 2013-2014 Rafael G. Martins &lt;rafael@rafaelmartins.eng.br&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * This program can be distributed under the terms of the LGPL-2 License.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * See the file COPYING.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef _BALDE_TEMPLATE_HELPERS_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define _BALDE_TEMPLATE_HELPERS_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;glib.h&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="app_8h.html" title="Application related definitions. ">balde/app.h</a>&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="wrappers_8h.html" title="Request/Response context related definitions. ">balde/wrappers.h</a>&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;gchar* balde_tmpl_url_for(<a class="code" href="structbalde__app__t.html" title="balde application context ">balde_app_t</a> *app, <a class="code" href="structbalde__request__t.html" title="balde request context ">balde_request_t</a> *request,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">const</span> gchar *endpoint, gboolean external, ...);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* _BALDE_TEMPLATE_HELPERS_H */</span><span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_03e0dcb93cfbac0a1b958cd83e5ca3c6.html">balde</a></li><li class="navelem"><a class="el" href="resources_8h.html">resources.h</a></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_03e0dcb93cfbac0a1b958cd83e5ca3c6.html">balde</a></li><li class="navelem"><b>template-helpers.h</b></li>
     <li class="footer">Generated on Sun Apr 6 2014 22:27:09 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
